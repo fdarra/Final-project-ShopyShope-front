@@ -1,0 +1,49 @@
+
+/////get all USERS
+export const  GET_USERS_LOAD ="GET_USERS_LOAD";
+export const  GET_USERS_SUCCESS ="GET_USERS_SUCCESS";
+export const  GET_USERS_FAIL ="GET_USERS_FAIL";
+
+
+/////get USERS by id
+export const  GET_USER_BY_ID_LOAD ="GET_USER_BY_ID_LOAD";
+export const  GET_USER_BY_ID_SUCCESS ="GET_USER_BY_ID_SUCCESS";
+export const  GET_USER_BY_ID_FAIL ="GET_USER_BY_ID_FAIL";
+
+////// ADD USER
+
+export const  ADD_USER_LOAD ="ADD_USER_LOAD";
+export const  ADD_USER_SUCCESS ="ADD_USER_SUCCESS";
+export const  ADD_USER_FAIL ="ADD_USER_FAIL";
+
+//// DELETE USER    
+
+export const  DELETE_USER_LOAD ="DELETE_USER_LOAD";
+export const  DELETE_USER_SUCCESS ="DELETE_USER_SUCCESS";
+export const  DELETE_USER_FAIL ="DELETE_USER_FAIL";
+
+//// EDIT USER
+
+export const  EDIT_USER_LOAD ="EDIT_USER_LOAD";
+export const  EDIT_USER_SUCCESS ="EDIT_USER_SUCCESS";
+export const  EDIT_USER_FAIL ="EDIT_USER_FAIL";
+
+//// SEARCH USER    
+
+export const  SEARCH_USER_LOAD ="SEARCH_USER_LOAD";
+export const  SEARCH_USER_SUCCESS ="SEARCH_USER_SUCCESS";
+export const  SEARCH_USER_FAIL ="SEARCH_USER_FAIL";
+
+// PAGINATION   
+
+export const  SET_CURRENT_PAGE ="SET_CURRENT_PAGE";
+export const  SET_USERS_PER_PAGE ="SET_USERS_PER_PAGE";
+
+// FILTERS
+
+export const  SET_SORT_BY ="SET_SORT_BY";
+export const  SET_SORT_ORDER ="SET_SORT_ORDER";
+export const  SET_SEARCH_QUERY ="SET_SEARCH_QUERY";
+export const  SET_FILTERS ="SET_FILTERS";
+export const  CLEAR_FILTERS ="CLEAR_FILTERS";
+
